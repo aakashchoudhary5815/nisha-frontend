@@ -13,9 +13,6 @@ const ProductDisplay = (props) => {
      <div className="productdisplay-left">
       <div className="productdisplay-img-list">
         <img src={`https://backend-1-moxo.onrender.com/images/${product.image.split("/").pop()}`} alt="" />
-        <img src={`https://backend-1-moxo.onrender.com/images/${product.image.split("/").pop()}`} alt="" />
-        <img src={`https://backend-1-moxo.onrender.com/images/${product.image.split("/").pop()}`} alt="" />
-        <img src={`https://backend-1-moxo.onrender.com/images/${product.image.split("/").pop()}`} alt="" />
       </div>
       <div className="productdisplay-img">
         <img className='productdisplay-main-img' src={product.image} alt="" />
