@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Item = (props) => {
   return (
     <div className='item'>
-      <Link to={`/product/${props.id}`} style={{ textDecoration: 'none' }}><img onClick={window.scrollTo(0, 0)} src={props.image} alt="products" /></Link>
+      <Link to={`/product/${props.id}`} style={{ textDecoration: 'none' }}><img onClick={window.scrollTo(0, 0)} src={{`https://backend-1-moxo.onrender.com/images/${props.image.split("/").pop()}`}} alt="products" /></Link>
       <p>{props.name}</p>
       <div className="item-prices">
         <div className="item-price-new">${props.new_price}</div>
