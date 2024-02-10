@@ -12,10 +12,10 @@ const ProductDisplay = (props) => {
     <div className='productdisplay'>
      <div className="productdisplay-left">
       <div className="productdisplay-img-list">
-        <img src={`https://backend-1-moxo.onrender.com/${product.image}`} alt="" />
-        <img src={`https://backend-1-moxo.onrender.com/${product.image}`} alt="" />
-        <img src={`https://backend-1-moxo.onrender.com/${product.image}`} alt="" />
-        <img src={`https://backend-1-moxo.onrender.com/${product.image}`} alt="" />
+        <img src={`${product.image}`} alt="" />
+        <img src={`${product.image}`} alt="" />
+        <img src={`${product.image}`} alt="" />
+        <img src={`${product.image}`} alt="" />
       </div>
       <div className="productdisplay-img">
         <img className='productdisplay-main-img' src={product.image} alt="" />
