@@ -25,7 +25,7 @@ const ShopContextProvider = (props) => {
         .then((data)=>setAll_Product(data))
 
         if(localStorage.getItem('auth-token')){
-            fetch('https://shopplusplusbk.onrender.com//getcart',{   
+            fetch('https://shopplusplusbk.onrender.com/getcart',{   
                    method:'POST',
                    headers:{
                    Accept:'application/form-data',
